@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="imgs/wifi.png" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+    <title>Game</title>
+</head>
+
+<body>
+    <iframe id="sound" style="display:none" loop="1"></iframe>
+    <iframe id="pass" style="display:none"></iframe>
+    <div id="enter">
+        <span>PRESS START</span>
+        <div id="select">
+            <button onclick="selectMouse();start();">start</button>
+        </div>
+        <p>&copy; <a target="_blank" href="https://www.facebook.com/profile.php?id=100005569805201">Abdelrahman Ayman</a></p>
+    </div>
+    <div class="items"></div>
+    <div id="cursor"></div>
+    <code></code>
+    <div class="result">
+        <h2 style="color:#F00">SCORE</h2>
+        <h1></h1>
+        <h1></h1>
+    </div>
+    <script src="jQuery.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
